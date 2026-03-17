@@ -7,6 +7,7 @@
 ```
 memory/
 ├── MEMORY.md               # 엔트리포인트 (200줄 이내)
+├── service-context.md       # 컨설팅 대상 서비스 맥락
 ├── task-log.md              # 작업 이력
 ├── lessons-learned.md       # 학습 기록
 └── user-preferences.md      # 사용자 선호도
@@ -19,6 +20,12 @@ memory/
 - 최신 핵심 학습 사항을 상위에 배치
 - 중요도 순으로 정렬, 오래된 내용은 하위 파일로 이동
 - 포함 내용: 핵심 학습 요약, 자주 하는 실수와 해결법, 사용자 핵심 선호도, 다른 Memory 파일 참조 링크
+
+### service-context.md (서비스 맥락)
+- 컨설팅 대상 서비스의 핵심 맥락을 담는 파일 (회사 정보, 고객 문제 가설, 솔루션 가설, 현재 단계 등)
+- **모든 skill/subagent 실행 전 필수 참조** — skill 워크플로우의 0단계에서 Read 도구로 읽음
+- 사용자가 서비스 관련 새 정보를 제공하면 즉시 업데이트
+- MEMORY.md와의 관계: MEMORY.md는 전체 프로젝트 현황 요약, service-context.md는 서비스 상세 맥락
 
 ### task-log.md (작업 이력)
 - 수행한 작업의 시간순 기록
