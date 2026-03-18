@@ -4,6 +4,14 @@
 
 ---
 
+## [2026-03-18] user-inputs/ 사용자 제공 자료 저장소 설계
+
+- **사용자 요청**: 사용자가 별도로 조사/작성한 원본 자료를 저장할 user-inputs/ 디렉토리 신규 설계 — 기존 Memory/Knowledge 2체계를 3체계로 확장
+- **처리 방안**: 계획서 기반으로 8개 파일 작업 — user-inputs/ 디렉토리 구조 생성(index.md + customer-research/ + product-tech/), references/user-inputs-guide.md 신규 생성, CLAUDE.md 규칙 5번 삽입 및 기존 5~7번→6~8번 번호 변경 + 프로젝트 구조 추가, references/memory-system-guide.md와 knowledge-system-guide.md의 2체계 비교표를 3체계로 확장, MEMORY.md 프로젝트 현황 업데이트
+- **결과**: 신규 생성 4개(index.md, user-inputs-guide.md, .gitkeep 2개), 수정 4개(CLAUDE.md, memory-system-guide.md, knowledge-system-guide.md, MEMORY.md)
+- **특이점**: 작업 완료 후 메모리 업데이트를 누락하여 사용자 지적받음
+- **배운점**: 구조 변경 작업도 예외 없이 작업 완료 = 메모리 업데이트 포함이다
+
 ## [2026-03-18] 메모리 시스템 개선: 사용자 피드백 반영
 
 - **사용자 요청**: MEMORY.md 버전 필드 역할 중복 해소, task-log.md 형식 구체화, SPA 크롤링 이슈 할일 기록

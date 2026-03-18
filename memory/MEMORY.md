@@ -2,8 +2,8 @@
 
 ## 프로젝트 현황
 
-- **최근 작업**: 메모리 시스템 개선 — 버전→최근 작업 필드 변경, task-log 형식 구체화, 피드백/교훈 기록 (2026-03-18)
-- **구조**: 4개 skill (idea-validation-consulting, landing-page-consulting, sales-deck-consulting, ai-trend-analysis) + 1개 subagent (startup-researcher) + Memory + Knowledge (5개 카테고리, 16개 topic)
+- **최근 작업**: user-inputs/ 저장소 설계 — 3체계(Memory/Knowledge/User Inputs) 구축, CLAUDE.md 규칙 5번 추가, 3개 가이드 문서 비교표 확장 (2026-03-18)
+- **구조**: 4개 skill (idea-validation-consulting, landing-page-consulting, sales-deck-consulting, ai-trend-analysis) + 1개 subagent (startup-researcher) + Memory + Knowledge (5개 카테고리, 16개 topic) + User Inputs
 - **멘토**: Eric Ries, Peter Thiel, Paul Graham
 - **컨설팅 대상**: 콕스웨이브(Coxwave)의 AI 서비스 QA 자동화 서비스 — 아이디어 검증 단계, MVP 개발 중 (상세: [service-context.md](service-context.md))
 
