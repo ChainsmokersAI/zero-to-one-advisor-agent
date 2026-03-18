@@ -2,15 +2,16 @@
 
 ## 프로젝트 현황
 
-- **버전**: 초기 구축 완료 (2026-03-16) → service-context.md 추가 (2026-03-17) → service-context.md 참조 체계 구축 (2026-03-18) → service-context.md 보완: 핵심 포인트/리스크 추가 (2026-03-18)
-- **구조**: 4개 skill (idea-validation-consulting, landing-page-consulting, sales-deck-consulting, ai-trend-analysis) + 1개 subagent (startup-researcher) + Memory + Knowledge (5개 카테고리, 15개 topic)
+- **최근 작업**: 메모리 시스템 개선 — 버전→최근 작업 필드 변경, task-log 형식 구체화, 피드백/교훈 기록 (2026-03-18)
+- **구조**: 4개 skill (idea-validation-consulting, landing-page-consulting, sales-deck-consulting, ai-trend-analysis) + 1개 subagent (startup-researcher) + Memory + Knowledge (5개 카테고리, 16개 topic)
 - **멘토**: Eric Ries, Peter Thiel, Paul Graham
 - **컨설팅 대상**: 콕스웨이브(Coxwave)의 AI 서비스 QA 자동화 서비스 — 아이디어 검증 단계, MVP 개발 중 (상세: [service-context.md](service-context.md))
 
 ## 다음 세션 할 일
 
-- service-context.md 보완: 핵심 포인트/리스크 반영 완료. 검증 현황은 추후 사용자가 필요 시 별도 공유 예정
-- 랜딩 페이지 초안 작성: 사용자가 "내일까지 랜딩 페이지 초안 작성 필요"라고 언급 (2026-03-17 기준)
+- **랜딩 페이지 초안 작성**: YC AI QA 스타트업 10개 랜딩 페이지 리서치 완료 (knowledge/ai-startup-trends/yc-ai-qa-landing-page-analysis.md). 이 리서치 결과를 기반으로 콕스웨이브 랜딩 페이지 초안 작성 진행
+- service-context.md 보완: 검증 현황은 추후 사용자가 필요 시 별도 공유 예정
+- [낮은 우선순위] SPA 렌더링 사이트 내용 추출 고민: WebFetch가 Framer/Next.js RSC 기반 SPA 콘텐츠 추출 실패 — 대안 조사 필요 (Puppeteer MCP, 브라우저 자동화 등)
 
 ## 핵심 교훈
 
@@ -40,7 +41,7 @@
 | 웹 서칭 후 knowledge 업데이트 누락 | 웹 서칭을 수행했으면, 작업 완료 전 반드시 knowledge topic을 생성/업데이트한다 |
 | 세션 재시작 전 미완료 작업 미기록 | 세션 핸드오프: MEMORY.md `## 다음 세션 할 일`에 미완료 작업 + 배경 맥락을 기록한 후 종료한다 |
 | 사용자 후속 약속/의도를 "다음 세션 할 일"에 미기록 | 사용자가 "다음에 ~하겠다", "나중에 ~제공하겠다" 등 후속 작업을 언급하면, 즉시 "다음 세션 할 일"에 기록한다 |
-| MEMORY.md 버전/현황 필드 미갱신 | 새 파일 추가, 구조 변경 등 프로젝트에 변화가 있으면, 반드시 프로젝트 현황(버전 등)을 함께 갱신한다 |
+| MEMORY.md 최근 작업/현황 필드 미갱신 | 새 파일 추가, 구조 변경 등 프로젝트에 변화가 있으면, 반드시 프로젝트 현황(최근 작업 등)을 함께 갱신한다 |
 | 새 메모리 파일 추가 시 참조 체계 미설계 | 새 파일 생성 시, 해당 파일을 "누가, 언제, 어디서 읽는지"를 skill/subagent/CLAUDE.md에 반영하는 것까지 완료해야 한다. 파일 존재 ≠ 참조 보장 |
 | 사용자가 말하지 않은 항목을 임의로 추가 | 사용자가 명시적으로 요청한 범위만 반영하고, 임의로 확장하지 않는다 |
 
