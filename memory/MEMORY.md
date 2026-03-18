@@ -2,16 +2,17 @@
 
 ## 프로젝트 현황
 
-- **최근 작업**: user-inputs/ 저장소 설계 — 3체계(Memory/Knowledge/User Inputs) 구축, CLAUDE.md 규칙 5번 추가, 3개 가이드 문서 비교표 확장 (2026-03-18)
-- **구조**: 4개 skill (idea-validation-consulting, landing-page-consulting, sales-deck-consulting, ai-trend-analysis) + 1개 subagent (startup-researcher) + Memory + Knowledge (5개 카테고리, 16개 topic) + User Inputs
+- **최근 작업**: 랜딩 페이지 전략 Phase 1-2 완료 — landing-page-draft.md 최종 산출물 생성 (2026-03-18)
+- **구조**: 4개 skill (idea-validation-consulting, landing-page-consulting, sales-deck-consulting, ai-trend-analysis) + 1개 subagent (startup-researcher) + Memory + Knowledge (5개 카테고리, 16개 topic) + User Inputs + `landing-page-draft.md` (랜딩 페이지 전략 최종 산출물)
 - **멘토**: Eric Ries, Peter Thiel, Paul Graham
 - **컨설팅 대상**: 콕스웨이브(Coxwave)의 AI 서비스 QA 자동화 서비스 — 아이디어 검증 단계, MVP 개발 중 (상세: [service-context.md](service-context.md))
 
 ## 다음 세션 할 일
 
-- **랜딩 페이지 초안 작성**: YC AI QA 스타트업 10개 랜딩 페이지 리서치 완료 (knowledge/ai-startup-trends/yc-ai-qa-landing-page-analysis.md). 이 리서치 결과를 기반으로 콕스웨이브 랜딩 페이지 초안 작성 진행
+- **랜딩 페이지 구현**: landing-page-draft.md 기반으로 실제 페이지 빌드 (Framer 등 빌더 선정 필요)
+- **제품 디자인 완성 후 플레이스홀더 교체**: landing-page-draft.md 내 [제품 스크린샷] 등 플레이스홀더를 실제 이미지로 교체
 - service-context.md 보완: 검증 현황은 추후 사용자가 필요 시 별도 공유 예정
-- [낮은 우선순위] SPA 렌더링 사이트 내용 추출 고민: WebFetch가 Framer/Next.js RSC 기반 SPA 콘텐츠 추출 실패 — 대안 조사 필요 (Puppeteer MCP, 브라우저 자동화 등)
+- [낮은 우선순위] SPA 렌더링 사이트 내용 추출 대안 조사: WebFetch가 Framer/Next.js RSC 기반 SPA 콘텐츠 추출 실패 — Puppeteer MCP, 브라우저 자동화 등 대안 필요
 
 ## 핵심 교훈
 
@@ -34,7 +35,7 @@
 
 | 실수 | 해결법 |
 |------|--------|
-| Memory 기록 누락 | 모든 작업 완료 후 **무조건** Memory 업데이트 — 사용자 요청 없이도 자동으로 전체 점검(MEMORY.md → task-log → lessons-learned → user-preferences) 실행. 작업 완료 = 메모리 업데이트 포함 |
+| Memory 기록 누락 | 모든 작업 완료 후 **무조건** Memory 업데이트 — 사용자 요청 없이도 자동으로 전체 점검(MEMORY.md → task-log → lessons-learned → user-preferences) 실행. 작업 완료 = 메모리 업데이트 포함. **계획 단계에서부터 메모리 업데이트를 실행 단계에 포함시킬 것** |
 | 프로젝트 memory 우선순위 역전 | 기록 순서: 프로젝트 memory/ 먼저 → auto memory 그 다음. 절대 뒤바꾸지 않는다 |
 | Knowledge index.md topic 수 미갱신 | topic 파일 추가 시 반드시 루트 index.md의 topic 수도 함께 갱신 |
 | 사용자 요청 처리 시 knowledge/ 미확인 | 반드시 knowledge/를 먼저 확인한 후 작업을 시작한다. 확인 없이 작업을 시작하지 않는다 |

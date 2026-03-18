@@ -55,6 +55,10 @@ user_invocable: true
 
 검증 목표에 맞는 페이지 구조를 제안합니다:
 
+**벤치마크 기반 구조 제안**: knowledge/의 벤치마크 분석 자료(예: YC AI QA 스타트업 랜딩 페이지 분석)를 먼저 확인하고, 타겟/단계에 맞는 섹션 구성을 제안합니다. 초안은 약간 과하게 제시하고 사용자와 논의를 통해 깎아나가는 방식을 권장합니다 — 없는 걸 추가하자고 설득하는 것보다, 있는 걸 제거하자고 논의하는 것이 수월합니다.
+
+**기존 마케팅 자료 활용**: 브로셔, Sales Deck 등 기존 자료가 있으면 카피의 1차 소재로 활용합니다 — 검증된 문구 재활용이 효율적이고 브랜드 일관성을 유지합니다.
+
 **기본 구조 (Smoke Test 랜딩 페이지):**
 1. **Hero Section**: 핵심 가치 제안 + 서브 헤드라인 + CTA
 2. **Problem**: 타겟 고객이 겪는 문제 (공감 유도)
@@ -70,9 +74,13 @@ user_invocable: true
 
 필요 시 startup-researcher subagent로 참고 랜딩 페이지 사례 조사를 수행합니다.
 
+**섹션별 순차 작성**: 구조 확정 후, 섹션 하나씩 (카피 + 의도/레퍼런스 + 디자인 방향) 작성 → 사용자 리뷰 → 피드백 반영 → 다음 섹션으로 진행합니다. 각 섹션이 고유한 역할을 갖는지 자체 검증하여 섹션 간 내용 중복을 방지합니다.
+
 ### 4. 카피/디자인 방향 제안
 
 - **핵심 카피**: Hero 헤드라인, 서브 헤드라인, CTA 문구 초안
+- **카피 옵션 2-3개 + trade-off 비교**: 단일 안 대신 2-3개 대안을 비교 테이블(표현, 뉘앙스, 적합 상황)로 제시하여 사용자의 빠른 의사결정을 지원
+- **비즈니스 영어 맥락 설명**: 영어 카피 제안 시 해당 표현의 업계 사용 맥락과 뉘앙스를 함께 설명 (예: "Hyper-Realistic"은 게임/시뮬레이션 업계에서 널리 사용되는 표현으로 QA 맥락에서도 적합)
 - **톤**: 타겟 고객에 맞는 톤 (전문적/친근/긴급)
 - **시각적 방향**: 스크린샷/목업 활용 여부, 색상/레이아웃 방향
 - **최소 요구**: 디자인보다 메시지가 우선 — "Never let your belief that 'it's not flashy enough' block your ability to create content."
@@ -98,3 +106,4 @@ user_invocable: true
 - `knowledge/validation-case-studies/dropbox-demo-video.md` — Dropbox 데모 영상 MVP
 - `knowledge/idea-validation/validation-methodology.md` — Smoke Test 유형
 - `knowledge/idea-validation/validation-common-mistakes.md` — 흔한 검증 실수
+- `knowledge/ai-startup-trends/yc-ai-qa-landing-page-analysis.md` — YC AI QA 스타트업 랜딩 페이지 벤치마크

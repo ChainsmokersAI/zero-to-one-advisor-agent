@@ -4,6 +4,37 @@
 
 ---
 
+## [2026-03-18] 랜딩 페이지 전략 Phase 1-2 완료 — landing-page-draft.md 생성
+
+- **사용자 요청**: 콕스웨이브 Align 랜딩 페이지 전략 기획 — 9개 섹션 구조 논의 → 확정(5섹션+Bridge) → 섹션별 상세 카피/레퍼런스/디자인 작성
+- **처리 방안**: 계획서 기반으로 Phase 1(구조 논의) 실행 — 사용자 피드백으로 9개→5+Bridge로 축소 → Phase 2(섹션별 상세) 실행 — 매 섹션 작성 후 사용자 리뷰/피드백 반영 → 최종 정리 및 파일명 변경
+- **결과**: `landing-page-draft.md` 최종 산출물 생성. 5개 섹션(Hero, How It Works, Key Capabilities, FAQ, Final CTA) + 1개 Bridge(Problem Bridge). 전략적 방향 3가지(Problem-First, Dual CTA, Trust Bar 미적용) 확정. Dual CTA 플랫폼(Tally + Cal.com) 및 Early Access 폼 항목까지 설계
+- **특이점**:
+  - Phase 1에서 사용자 논의를 통해 9개 섹션을 5+Bridge로 대폭 축소 — Trust Bar, Visual Proof(별도), Who It's For, What Align Catches 제거
+  - Key Capabilities 카드 내용을 사용자가 기능 중심 → 고객 가치 중심으로 전면 교체 지시
+  - "Hyper-Realistic" vs "Real-World" 표현 논의 → Hyper-Realistic 채택, Real-World는 대안으로 기록
+  - What Align Catches 섹션이 기존 섹션과 중복된다는 사용자 피드백으로 FAQ로 교체
+- **배운점**:
+  - 초안을 과하게 제시하고(9개) 사용자와 깎아나가는 방식이 효과적 — 없는 것을 추가하는 것보다 있는 것을 제거하는 것이 논의가 쉬움
+  - 카피 옵션 제시 시 2-3개 대안 + trade-off 분석이 사용자 의사결정을 돕는다
+  - 기존 마케팅 자료(브로셔)가 카피의 최고 소재 — 이미 검증된 문구를 재활용하는 것이 새로 쓰는 것보다 효율적이고 브랜드 일관성도 유지
+
+## [2026-03-18] 랜딩 페이지 전략 Phase 1 — 9개 섹션 구조 초안 작성
+
+- **사용자 요청**: 콕스웨이브 Align 랜딩 페이지 전략 기획 — Phase 1(구조 논의 및 확정) 실행
+- **처리 방안**: 계획서 기반으로 전체 참조 자료 읽기(MEMORY.md, service-context.md, knowledge, user-inputs 4건, 브로셔 PDF, 이전 중간 산출물) → 9개 섹션 구조 초안 작성 → `landing-page-strategy-a.md` 교체
+- **결과**: 9개 섹션(Hero, Trust Bar, Problem, How It Works, Key Capabilities, Visual Proof, Who It's For, FAQ, Final CTA) 구조 + 전략적 방향(Problem-First, Dual CTA, Trust 전략) + 각 섹션별 목적/서사적 역할/벤치마크/구성요소 초안 완료
+- **특이점**: 이전 세션의 중간 산출물(Hero, Problem Bridge, How It Works, What We Offer 3개 섹션)을 참조하되, 9개 섹션 구조로 전면 재설계. Trust Bar, Visual Proof, Who It's For, FAQ, Final CTA 5개 섹션 신규 추가
+- **배운점**: —
+
+## [2026-03-18] 사용자 자료 3건 user-inputs 등록
+
+- **사용자 요청**: 프로젝트 root에 업로드된 3개 파일(YC AI 스타트업 랜딩 페이지 분석 2편 + MWC Align 브로셔)을 user-inputs 시스템에 등록
+- **처리 방안**: 계획서 기반으로 파일 3개를 분류 디렉토리로 이동(customer-research/ 2건, product-tech/ 1건), index.md 테이블에 3건 추가, 메모리 업데이트
+- **결과**: user-inputs/index.md에 3건 등록 완료, root에서 파일 제거 완료
+- **특이점**: 계획 단계에서 메모리 업데이트를 실행 단계에 포함시킨 첫 사례 — 이전 세션에서 반복된 메모리 업데이트 누락 방지
+- **배운점**: 작업 계획 시 메모리 업데이트를 명시적 실행 단계로 포함시키면 누락을 방지할 수 있다
+
 ## [2026-03-18] user-inputs/ 사용자 제공 자료 저장소 설계
 
 - **사용자 요청**: 사용자가 별도로 조사/작성한 원본 자료를 저장할 user-inputs/ 디렉토리 신규 설계 — 기존 Memory/Knowledge 2체계를 3체계로 확장
