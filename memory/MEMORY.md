@@ -2,15 +2,13 @@
 
 ## 프로젝트 현황
 
-- **최근 작업**: 랜딩 페이지 전략 Phase 1-2 완료 — landing-page-draft.md 최종 산출물 생성 (2026-03-18)
+- **최근 작업**: context 파일 READ 트리거 보편화 — "skill/subagent 실행 전" → "모든 작업 시작 전"으로 변경하여 규칙 3, 4, 5의 사전 확인 트리거 일관성 확보 (2026-03-19)
 - **구조**: 4개 skill (idea-validation-consulting, landing-page-consulting, sales-deck-consulting, ai-trend-analysis) + 1개 subagent (startup-researcher) + Memory + Knowledge (5개 카테고리, 16개 topic) + User Inputs + `landing-page-draft.md` (랜딩 페이지 전략 최종 산출물)
 - **멘토**: Eric Ries, Peter Thiel, Paul Graham
 - **컨설팅 대상**: 콕스웨이브(Coxwave)의 AI 서비스 QA 자동화 서비스 — 아이디어 검증 단계, MVP 개발 중 (상세: [service-context.md](service-context.md))
 
 ## 다음 세션 할 일
 
-- **랜딩 페이지 구현**: landing-page-draft.md 기반으로 실제 페이지 빌드 (Framer 등 빌더 선정 필요)
-- **제품 디자인 완성 후 플레이스홀더 교체**: landing-page-draft.md 내 [제품 스크린샷] 등 플레이스홀더를 실제 이미지로 교체
 - service-context.md 보완: 검증 현황은 추후 사용자가 필요 시 별도 공유 예정
 - [낮은 우선순위] SPA 렌더링 사이트 내용 추출 대안 조사: WebFetch가 Framer/Next.js RSC 기반 SPA 콘텐츠 추출 실패 — Puppeteer MCP, 브라우저 자동화 등 대안 필요
 
@@ -18,12 +16,15 @@
 
 ### Memory/Knowledge 운영
 
-- Memory 기록 순서: MEMORY.md → 하위 파일들(task-log, lessons-learned, user-preferences) → auto memory
+- Memory 기록 순서: MEMORY.md → 하위 파일들(task-log, lessons-learned, user-preferences, context 파일들) → auto memory
 - 프로젝트 memory/가 auto memory보다 항상 우선
 - Knowledge 규칙 4번의 두 의무(사전 확인 + 사후 기록)는 독립적이다 — 하나만 지키면 되는 것이 아니라 둘 다 매번 지켜야 한다
 - 세션 재시작이 필요한 작업 시, 반드시 미완료 작업을 MEMORY.md `## 다음 세션 할 일`에 기록한 후 종료해야 한다 (세션 핸드오프)
 - Knowledge 카테고리명은 내용을 즉시 파악할 수 있도록 구체적으로 명명해야 한다
 - 새로운 메모리 파일을 추가할 때, 파일 생성만으로 끝내지 않는다 — "누가, 언제, 어디서 읽어야 하는지"를 skill/subagent/CLAUDE.md에 명시적으로 반영하는 것까지가 파일 추가 작업의 완료 기준이다
+- 규칙 설계 시 확장성을 고려한다 — 특정 파일명 대신 일반 개념으로 정의하고, 목록은 참조 문서에 위임
+- 새 규칙 설계 시 "읽기와 쓰기 양방향이 모두 필요한가?"를 체크한다
+- 규칙의 트리거 조건은 다른 유사 규칙과 일관되게 설정한다 — "skill/subagent 실행 전"처럼 좁은 트리거는 예외 상황을 만든다
 
 ### 범용 원칙
 
@@ -45,6 +46,7 @@
 | MEMORY.md 최근 작업/현황 필드 미갱신 | 새 파일 추가, 구조 변경 등 프로젝트에 변화가 있으면, 반드시 프로젝트 현황(최근 작업 등)을 함께 갱신한다 |
 | 새 메모리 파일 추가 시 참조 체계 미설계 | 새 파일 생성 시, 해당 파일을 "누가, 언제, 어디서 읽는지"를 skill/subagent/CLAUDE.md에 반영하는 것까지 완료해야 한다. 파일 존재 ≠ 참조 보장 |
 | 사용자가 말하지 않은 항목을 임의로 추가 | 사용자가 명시적으로 요청한 범위만 반영하고, 임의로 확장하지 않는다 |
+| 작업 중 확인된 사실을 context 파일에 미반영 | 메모리 업데이트 시 "context 파일에 반영할 내용이 있는가?"를 체크한다 — 확인된 사실(타겟, 전략, 모델 등)만 기록, 산출물은 제외 |
 
 ## 사용자 핵심 선호
 

@@ -4,6 +4,14 @@
 
 ---
 
+## [2026-03-19] context 파일 규칙 일반화 (READ+WRITE-BACK + READ 트리거 보편화)
+
+- **사용자 요청**: (1) service-context.md에 WRITE-BACK 규칙이 없어 확인된 사실 미반영 문제 해결 + 확장성 설계 (2) context 파일 READ 트리거를 "skill/subagent 실행 전" → "모든 작업 시작 전"으로 보편화하여 규칙 3, 4, 5 간 일관성 확보
+- **처리 방안**: (1) "context 파일" 일반 개념 도입 — CLAUDE.md READ 일반화 + WRITE-BACK 추가, 4개 SKILL Step 0 일반화, memory-system-guide.md에 context 파일 정의/목록 신설 (2) CLAUDE.md context 파일 READ 규칙에 "[사전 확인]" 태그 + "모든 작업 시작 전" 트리거 적용, memory-system-guide.md READ 항목도 동일하게 보편화
+- **결과**: 10개 파일 수정(READ+WRITE-BACK) + 5개 파일 수정(READ 트리거 보편화). CLAUDE.md 규칙 3(context), 4(Knowledge), 5(User Inputs)의 사전 확인 트리거가 동일 패턴으로 통일
+- **특이점**: 사용자가 확장성 관점 피드백 → 일반 개념 재설계. READ 트리거가 좁게 설정되어 일반 질문에서 context 미참조 문제 발견 → 보편화
+- **배운점**: (1) 규칙 설계 시 확장성 고려 필수 (2) 유사 규칙의 트리거 조건은 일관되게 설정해야 한다 — 좁은 트리거는 예외 상황을 만든다
+
 ## [2026-03-18] 랜딩 페이지 전략 Phase 1-2 완료 — landing-page-draft.md 생성
 
 - **사용자 요청**: 콕스웨이브 Align 랜딩 페이지 전략 기획 — 9개 섹션 구조 논의 → 확정(5섹션+Bridge) → 섹션별 상세 카피/레퍼런스/디자인 작성
