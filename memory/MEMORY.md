@@ -2,8 +2,8 @@
 
 ## 프로젝트 현황
 
-- **최근 작업**: context 파일 READ 트리거 보편화 — "skill/subagent 실행 전" → "모든 작업 시작 전"으로 변경하여 규칙 3, 4, 5의 사전 확인 트리거 일관성 확보 (2026-03-19)
-- **구조**: 4개 skill (idea-validation-consulting, landing-page-consulting, sales-deck-consulting, ai-trend-analysis) + 1개 subagent (startup-researcher) + Memory + Knowledge (5개 카테고리, 16개 topic) + User Inputs + `landing-page-draft.md` (랜딩 페이지 전략 최종 산출물)
+- **최근 작업**: Sales Deck 사례 리서치 — 3개 스트림 병렬 실행(실물 Deck, Pre-MVP 가이드, 영상 콘텐츠)하여 knowledge/startup-sales/sales-deck-case-studies.md 신규 생성 (2026-03-19)
+- **구조**: 4개 skill (idea-validation-consulting, landing-page-consulting, sales-deck-consulting, ai-trend-analysis) + 1개 subagent (startup-researcher) + Memory + Knowledge (5개 카테고리, 17개 topic) + User Inputs + `landing-page-draft.md` (랜딩 페이지 전략 최종 산출물)
 - **멘토**: Eric Ries, Peter Thiel, Paul Graham
 - **컨설팅 대상**: 콕스웨이브(Coxwave)의 AI 서비스 QA 자동화 서비스 — 아이디어 검증 단계, MVP 개발 중 (상세: [service-context.md](service-context.md))
 

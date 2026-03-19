@@ -4,6 +4,14 @@
 
 ---
 
+## [2026-03-19] Sales Deck 사례 리서치 — 3개 스트림 병렬 실행
+
+- **사용자 요청**: Sales Deck 모범 사례 리서치 계획 실행 — 4개 스트림 중 Stream 1(실물 Deck), Stream 2(Pre-MVP 가이드), Stream 3(영상 콘텐츠)을 startup-researcher subagent 3개 병렬 실행
+- **처리 방안**: 3개 subagent 병렬 실행 → 결과 종합 → Stream 4(경쟁사 분석) 불필요 판단 → knowledge 파일 생성 → Memory 업데이트
+- **결과**: knowledge/startup-sales/sales-deck-case-studies.md 신규 생성 (4파트 구성: 실물 Deck 사례 9건, Pre-MVP 가이드 18건, 영상 콘텐츠 8건, Coxwave 적용 시사점). startup-sales/ index.md topic 추가, 루트 index.md topic 수 16→17 갱신
+- **특이점**: Sales Deck 실물은 예상대로 극히 드물었음. 가장 유사한 사례는 PlaytestCloud(게임 QA)와 Galileo AI(LLM Evaluation). Pre-MVP 단계에서는 "Sales Deck"보다 "Discovery Deck" + Design Partner Program이 더 적합하다는 일관된 결론. Stream 4는 1-3의 결과가 충분하여 생략
+- **배운점**: Pre-MVP 단계에서의 핵심 영업 자료는 전통적 Sales Deck이 아닌 Discovery Deck(문제 공감 + 비전 제시 + Design Partner 모집)이다
+
 ## [2026-03-19] context 파일 규칙 일반화 (READ+WRITE-BACK + READ 트리거 보편화)
 
 - **사용자 요청**: (1) service-context.md에 WRITE-BACK 규칙이 없어 확인된 사실 미반영 문제 해결 + 확장성 설계 (2) context 파일 READ 트리거를 "skill/subagent 실행 전" → "모든 작업 시작 전"으로 보편화하여 규칙 3, 4, 5 간 일관성 확보
