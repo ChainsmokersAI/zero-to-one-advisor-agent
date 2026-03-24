@@ -4,6 +4,38 @@
 
 ---
 
+## [2026-03-24] Sales Deck 3건 실물 슬라이드별 상세 분석
+
+- **사용자 요청**: 업로드한 Sales Deck PDF 3건(Zuora 20장, PlaytestCloud 16장, Linear 8장)을 상세 분석. Zuora는 Andy Raskin Strategic Narrative 관점, PlaytestCloud는 Coxwave 비교 포함
+- **처리 방안**: startup-researcher subagent로 Andy Raskin 원문 분석 2차 출처 수집(LinkedIn 미러, BrandGym, Zuora 공식, Ink Narrates 등) → PDF 실물 슬라이드별 분석(Zuora 5단계 매핑, PlaytestCloud 전략 패턴 + Coxwave 비교, Linear Problem-Solution 구조) → 3개 Deck 비교 종합 + Coxwave 적용 시사점 도출 → knowledge/sales-deck-framework.md 업데이트(원문 인용, 프레임워크 진화 테이블, 후속 글 목록, 복사 금지 주의사항)
+- **결과**: outputs/sales-deck-analysis-zuora-playtestcloud-linear.md 신규 생성, knowledge/sales-deck-framework.md 업데이트, outputs/index.md 갱신
+- **특이점**: Zuora 원문 Medium 기사 403 접근 불가 → LinkedIn 미러 및 2차 출처로 보완. Coxwave 적용 시사점으로 "Linear식 Problem-Solution + PlaytestCloud의 워크플로우 패턴 + Zuora의 서사 프레이밍 축약"의 하이브리드 접근 권장
+- **배운점**: —
+
+## [2026-03-24] outputs/ 산출물 폴더 신설
+
+- **사용자 요청**: 작업 산출물을 저장할 별도 폴더 생성
+- **처리 방안**: `outputs/` 디렉토리 + `index.md` 생성 → `landing-page-draft.md`를 root에서 `outputs/`로 이동 → CLAUDE.md 프로젝트 구조 섹션에 항목 추가 → MEMORY.md 갱신
+- **결과**: outputs/ 신설, index.md 생성(산출물 1건 등록), CLAUDE.md·MEMORY.md 업데이트
+- **특이점**: 사용자가 `deliverables/` 대신 `outputs/`로 폴더명 변경 요청
+- **배운점**: —
+
+## [2026-03-24] Sales Deck 참고 예시 PDF 3건 user-inputs 등록
+
+- **사용자 요청**: Sales Deck 작성 참고용 PDF 3건(PlaytestCloud, Zuora, Linear)을 프로젝트 root에 업로드 → user-inputs에 등록 요청
+- **처리 방안**: 3개 PDF 전체 페이지 확인 → 기존 분류 체계에 맞지 않아 `sales-marketing/` 분류 신설(사용자 승인) → 파일 이동 → index.md에 3건 추가 + 분류 체계 테이블 업데이트 → user-inputs-guide.md 디렉토리 구조 및 분류 저장 규칙 업데이트 → MEMORY.md 갱신
+- **결과**: user-inputs/sales-marketing/ 신설, PDF 3건 등록, index.md·user-inputs-guide.md·MEMORY.md 업데이트
+- **특이점**: 없음
+- **배운점**: —
+
+## [2026-03-24] Andy Raskin 영상 상세 내용을 별도 문서로 분리
+
+- **사용자 요청**: 방금 정리한 Andy Raskin 영상 2건 상세 내용을 별도 문서로 빼서 정리
+- **처리 방안**: andy-raskin-strategic-narrative.md 신규 생성(영상 2건 상세 내용 이동) → sales-deck-case-studies.md 3-2 섹션을 요약+링크로 축소(708줄→377줄) → startup-sales/index.md에 topic 추가 → knowledge/index.md topic 수 갱신(17→18) → MEMORY.md 구조·최근작업 갱신
+- **결과**: andy-raskin-strategic-narrative.md 신규 생성, sales-deck-case-studies.md 경량화, index 2개 갱신
+- **특이점**: MEMORY.md 최근 작업과 task-log 업데이트를 누락하여 사용자 지적 2회 발생
+- **배운점**: 하나의 세션에서 여러 작업을 순차 수행할 때, 각 작업 완료 시점마다 메모리를 업데이트해야 한다 — 마지막에 몰아서 하면 직전 작업만 기록하고 후속 작업을 누락하기 쉽다
+
 ## [2026-03-24] Andy Raskin 영상 2건 Timestamp별 상세 내용 정리
 
 - **사용자 요청**: sales-deck-case-studies.md의 '3-2. 권장 시청' 영상 2건(Lenny's Podcast, FounderCoHo)의 주요 내용을 Timestamp와 매핑하여 상세하게 정리

@@ -90,3 +90,4 @@
 - `memory/`: Memory 시스템
 - `knowledge/`: Knowledge 시스템 (카테고리 및 topic 목록은 knowledge/index.md 참조)
 - `user-inputs/`: 사용자 제공 자료 (원본 보관, 에이전트 필요 시 참조)
+- `outputs/`: 컨설팅 작업 산출물 (랜딩 페이지 초안, Sales Deck 초안 등)

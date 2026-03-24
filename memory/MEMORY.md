@@ -2,8 +2,8 @@
 
 ## 프로젝트 현황
 
-- **최근 작업**: Andy Raskin 영상 2건 Timestamp별 상세 정리 → 별도 문서(andy-raskin-strategic-narrative.md)로 분리, sales-deck-case-studies.md는 요약+링크로 축소 (2026-03-24)
-- **구조**: 4개 skill (idea-validation-consulting, landing-page-consulting, sales-deck-consulting, ai-trend-analysis) + 1개 subagent (startup-researcher) + Memory + Knowledge (5개 카테고리, 18개 topic) + User Inputs + `landing-page-draft.md` (랜딩 페이지 전략 최종 산출물)
+- **최근 작업**: Sales Deck 3건(Zuora, PlaytestCloud, Linear) 실물 슬라이드별 상세 분석 → outputs/에 분석 파일 생성, knowledge/sales-deck-framework.md 업데이트 (2026-03-24)
+- **구조**: 4개 skill (idea-validation-consulting, landing-page-consulting, sales-deck-consulting, ai-trend-analysis) + 1개 subagent (startup-researcher) + Memory + Knowledge (5개 카테고리, 18개 topic) + User Inputs (3개 분류: customer-research, product-tech, sales-marketing) + Outputs (산출물 목록은 outputs/index.md 참조)
 - **멘토**: Eric Ries, Peter Thiel, Paul Graham
 - **컨설팅 대상**: 콕스웨이브(Coxwave)의 AI 서비스 QA 자동화 서비스 — 아이디어 검증 단계, MVP 개발 중 (상세: [service-context.md](service-context.md))
 
@@ -48,6 +48,7 @@
 | 새 메모리 파일 추가 시 참조 체계 미설계 | 새 파일 생성 시, 해당 파일을 "누가, 언제, 어디서 읽는지"를 skill/subagent/CLAUDE.md에 반영하는 것까지 완료해야 한다. 파일 존재 ≠ 참조 보장 |
 | 사용자가 말하지 않은 항목을 임의로 추가 | 사용자가 명시적으로 요청한 범위만 반영하고, 임의로 확장하지 않는다 |
 | 작업 중 확인된 사실을 context 파일에 미반영 | 메모리 업데이트 시 "context 파일에 반영할 내용이 있는가?"를 체크한다 — 확인된 사실(타겟, 전략, 모델 등)만 기록, 산출물은 제외 |
+| 세션 내 후속 작업의 메모리 업데이트 누락 | 하나의 세션에서 여러 작업을 순차 수행할 때, **각 작업 완료 시점마다** 메모리를 업데이트한다 — 마지막에 몰아서 하면 후속 작업을 누락하기 쉽다 |
 
 ## 사용자 핵심 선호
 

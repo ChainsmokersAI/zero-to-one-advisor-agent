@@ -26,7 +26,8 @@
 user-inputs/
 ├── index.md                    # 자료 목록 테이블 (엔트리포인트)
 ├── customer-research/          # 고객/시장 조사 자료
-└── product-tech/               # 제품/기술 관련 자료
+├── product-tech/               # 제품/기술 관련 자료
+└── sales-marketing/            # Sales Deck, 영업/마케팅 자료
 ```
 
 ## 저장 규칙
@@ -34,7 +35,7 @@ user-inputs/
 1. **원본 보존**: 사용자가 제공한 자료를 그대로 저장합니다. 에이전트가 헤더 추가, 내용 정리, 구조화를 하지 않습니다
 2. **크기 제한 없음**: 자료 파일의 크기에 제한이 없습니다
 3. **삭제 금지**: 사용자가 명시적으로 삭제를 요청하지 않는 한 자료를 탈락시키거나 재검증하지 않습니다
-4. **분류 저장**: 자료 성격에 따라 `customer-research/` 또는 `product-tech/`에 저장합니다
+4. **분류 저장**: 자료 성격에 따라 `customer-research/`, `product-tech/`, `sales-marketing/` 등에 저장합니다
 
 ## 에이전트 참조 기준
 

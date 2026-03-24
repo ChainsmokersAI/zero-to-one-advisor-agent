@@ -1,8 +1,8 @@
 # Sales Deck 프레임워크
 
-- **최종 업데이트**: 2026-03-16
+- **최종 업데이트**: 2026-03-24
 - **출처 신뢰도**: 저명 인사
-- **출처**: Andy Raskin ("The Greatest Sales Deck I've Ever Seen", Medium, 2016), First Round Review ("Building Your Best Sales Deck Starts Here", 2016)
+- **출처**: Andy Raskin ("The Greatest Sales Deck I've Ever Seen", Medium, 2016; LinkedIn 미러), First Round Review ("Building Your Best Sales Deck Starts Here", 2016)
 
 ## 정의
 
@@ -12,24 +12,65 @@ Sales Deck은 고객 대상 영업 자료로, 투자자 대상의 Pitch Deck과 
 
 Zuora 사례를 기반으로 한 서사 구조. 성공적인 Sales Deck은 에픽 영화/동화와 같은 서사를 따른다 — "고객이 Luke이고, 당신이 Obi-Wan이며, 라이트세이버를 제공하여 제국을 물리치도록 돕는다."
 
-### 1. Name a Big Change
-세상에서 일어나고 있는 크고 관련 있는 변화를 명명. 고객이 그 변화가 자신에게 어떤 영향을 미치는지 열어놓게 만듦.
-- Zuora 사례: "subscription economy"로의 전환
+### 1. Name a Big, Relevant Change in the World
+> "Don't kick off a sales presentation by talking about your product, your headquarters locations, your investors, your clients, or anything about yourself. Instead, name the undeniable shift in the world that creates both (a) big stakes and (b) huge urgency for your prospect."
 
-### 2. Show Winners and Losers
-이 변화가 큰 승자와 패자를 만든다는 것을 보여줌.
-- Zuora 사례: Fortune 500 기업의 절반 이상이 15년 내 사라졌고, 승리 기업은 구독 서비스로 전환
+고객의 '문제'를 지적하면 방어적으로 만들지만, 세상의 '변화'를 명명하면 스스로 열어놓게 된다. Robert McKee 인용: "What attracts human attention is change."
+- Zuora 사례: "WE NOW LIVE IN A SUBSCRIPTION ECONOMY" — Zuora가 이 용어를 직접 창안
 
-### 3. Paint the Promised Land
-고객이 달성할 "Promised Land"를 제시 — 바람직하지만 외부 도움 없이는 달성하기 어려운 상태.
+### 2. Show There'll Be Winners and Losers
+> "To combat loss aversion, you must demonstrate how the change you cited above will create big winners and big losers."
 
-### 4. Position Your Solution as Magic
-제품을 "magic gifts"로 포지셔닝 — 고객(주인공)이 Promised Land에 도달하도록 돕는 마법 도구.
+Loss Aversion(손실 회피) 심리 활용. 암묵적 질문: "당신의 회사는 어느 쪽인가?"
+- Zuora 사례: Fortune 500의 52%가 15년 내 사라짐(패자) → GE, IBM, Amazon, Uber 등(승자)
 
-### 5. Provide Social Proof
-가장 효과적인 증거 = 유사한 다른 고객이 이미 Promised Land에 도달한 성공 스토리.
+### 3. Tease the Promised Land
+> "[Present] the happily-ever-after that your product/service will help the prospect achieve. Note that the Promised Land is a new future state, not your product or service."
 
-(출처: 원문 Medium 403 접근 불가, 2차 출처 보완 — https://www.storydoc.com/blog/zuora-best-sales-deck-ever, https://thebrandgym.com/the-greatest-sales-deck-ever-2/, 리서치 수행일: 2026-03-16)
+제품 소개 **전에** Promised Land를 먼저 제시. 고객이 사내에서 재판매할 때 "도달해야 할 미래"로 이야기할 수 있게 됨.
+- Zuora 사례: Subscription Experience — Ongoing Value, Memorable Experiences, On-demand Fulfillment 등
+
+### 4. Introduce Features as "Magic Gifts"
+> "Position its capabilities like the lightsaber, wizardry and spells—as 'magic gifts' for helping your main character (prospect) reach that much-desired Promised Land."
+
+기능은 서사 맥락 안에서만 의미가 있다. Old World vs. New World 대비 속에서 제시.
+- Zuora 사례: 선형→원형 모델 전환 + Subscriber Identity
+
+### 5. Present Evidence You Can Make the Story Come True
+> "By far, the most effective type of evidence is a success story about how you've already helped someone else (who is similar to the prospect) reach the Promised Land."
+
+유사 고객의 성공 스토리가 가장 강력한 증거.
+- Zuora 사례: NCR 임원의 고객 증언 (공개 버전에서 편집됨)
+
+(출처: 원문 Medium 403 접근 불가. LinkedIn 미러 [Andy Raskin](https://www.linkedin.com/pulse/greatest-sales-deck-ive-ever-seen-andy-raskin), [BrandGym](https://thebrandgym.com/lifes-a-pitch-the-greatest-sales-pitch-deck-ever/), [Zuora 공식](https://www.zuora.com/resource/best-sales-deck-ever/), 리서치 수행일: 2026-03-24)
+
+### 프레임워크 진화 (2016 → 2023)
+
+| 2016 원문 | 2023 버전 (Lenny's Podcast) | 핵심 변화 |
+|---|---|---|
+| Name a Big Change | Name the Old Game → New Game | "Old Way"가 아닌 "Old Game" — 과거를 인정하면서 변화 초대 |
+| Show Winners/Losers | Name the Stakes | 더 포괄적인 표현 |
+| Tease Promised Land | Name the Objective | 동일 개념 |
+| Features as Magic Gifts | Name the Obstacles + Overcome | 장벽을 명시적으로 분리 |
+| Present Evidence | Evidence (통합) | 동일 |
+
+(출처: [Andy Raskin LinkedIn](https://www.linkedin.com/posts/andyraskin_sometimes-people-boil-down-my-strategic-narrative-activity-7131327379045576704-YwbE))
+
+### Andy Raskin 후속 글
+
+| 제목 | 발행 | 핵심 | URL |
+|------|------|------|-----|
+| Great Pitches Start With Change | 2016 | Step 1의 5가지 기준 심화 | [LinkedIn](https://www.linkedin.com/pulse/great-pitches-start-change-andy-raskin) |
+| Is the "Greatest Sales Deck" Great for Savvy Prospects? | 2017 | 정통한 잠재 고객에게도 유효한가? 5-8장 이내 셋업 | [LinkedIn](https://www.linkedin.com/pulse/greatest-sales-deck-great-savvy-prospects-andy-raskin) |
+| Selling Your New Sales Deck to Sales | 2018 | 영업팀 저항 극복 5가지 전략 | [LinkedIn](https://www.linkedin.com/pulse/selling-new-sales-deck-andy-raskin) |
+| Bigger Narrative Podcast Ep.10: Tien Tzuo | 2020 | Zuora CEO와 대화, "Usership" 서사 진화 | [andyraskin.com](https://andyraskin.com/podcast/10-zuora-ceo-tien-tzuo/) |
+
+### 주의: Zuora Deck 복사 금지
+
+> "The audience can smell a knockoff" — 구조만 복사하면 실패. Zuora Deck은 그들의 고유한 서사, 시장 맥락, 창업자의 목소리를 반영한 것. "subscription economy"라는 용어를 그들이 직접 만들었기 때문에 작동한 것. **프레임워크(서사 구조)를 배우되, 자사 고유의 서사를 만들어야 함.**
+(출처: [Ink Narrates](https://www.inknarrates.com/post/zuora-the-greatest-sales-deck-ever))
+
+> 상세 분석(영상 콘텐츠 Timestamp별 정리)은 [andy-raskin-strategic-narrative.md](andy-raskin-strategic-narrative.md) 참조
 
 ## 프레임워크 2: First Round Review의 8섹션 Sales Deck
 
