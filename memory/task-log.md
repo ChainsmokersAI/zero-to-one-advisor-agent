@@ -4,6 +4,14 @@
 
 ---
 
+## [2026-03-24] Andy Raskin 영상 2건 Timestamp별 상세 내용 정리
+
+- **사용자 요청**: sales-deck-case-studies.md의 '3-2. 권장 시청' 영상 2건(Lenny's Podcast, FounderCoHo)의 주요 내용을 Timestamp와 매핑하여 상세하게 정리
+- **처리 방안**: YouTube Transcript API 추출 시도(실패 — 자막 파일 미제공) → startup-researcher subagent 2개 병렬로 2차 출처(뉴스레터, 팟캐스트 요약 서비스, 인터뷰 기사, Andy Raskin 본인 글 등) 수집 → 영상 Description의 Timestamp 구조 기반으로 교차 종합
+- **결과**: sales-deck-case-studies.md 3-2 섹션 대폭 확장. 영상 1(Lenny's Podcast): 17개 Timestamp별 상세 내용 + 5단계 프레임워크 진화 비교표 + 360Learning 사례 심층. 영상 2(FounderCoHo): 16개 Timestamp별 상세 내용 + Gong 사례 5가지 차별화 축 + AI 시대 적용 원칙 4가지. 각 섹션에 출처 링크 부착
+- **특이점**: (1) YouTube Transcript 직접 추출 실패 — 두 영상 모두 자막 파일 미제공. 사용자가 "2차 출처 기반임을 명시해야 한다"고 피드백 → 출처 안내 블록 추가, 각 섹션에 클릭 가능한 출처 링크 부착 (2) 사용자가 출처 태그를 URL 링크로 변경 요청 → `[[사이트명](URL)]` 형식으로 변경
+- **배운점**: (1) Transcript 없이 2차 출처로 영상 내용을 정리할 때, "직접 요약이 아닌 2차 출처 기반"임을 반드시 명시해야 한다 (2) 출처 태그는 클릭 가능한 링크로 제공하는 것이 사용자 경험에 훨씬 좋다
+
 ## [2026-03-19] Sales Deck 사례 리서치 — 3개 스트림 병렬 실행
 
 - **사용자 요청**: Sales Deck 모범 사례 리서치 계획 실행 — 4개 스트림 중 Stream 1(실물 Deck), Stream 2(Pre-MVP 가이드), Stream 3(영상 콘텐츠)을 startup-researcher subagent 3개 병렬 실행

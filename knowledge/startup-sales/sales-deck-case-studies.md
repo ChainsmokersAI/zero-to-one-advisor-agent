@@ -1,6 +1,6 @@
 # Sales Deck 사례 연구
 
-- **최종 업데이트**: 2026-03-19
+- **최종 업데이트**: 2026-03-24
 - **출처 신뢰도**: 혼합 (공식 문서 + 저명 인사 + 커뮤니티)
 - **리서치 수행일**: 2026-03-19
 
@@ -319,21 +319,23 @@ B2B DevTools 특성상 가장 적합한 전략:
 
 ### 3-2. 권장 시청 (Andy Raskin)
 
+> Timestamp별 상세 내용은 별도 문서로 분리: **[andy-raskin-strategic-narrative.md](andy-raskin-strategic-narrative.md)**
+
 #### Lenny's Podcast — The Power of Strategic Narrative
 
 - **URL**: https://www.youtube.com/watch?v=dkVJnaxDlXE
-- **조회수**: 19,019 | **게시일**: 2023-05-28 | **길이**: 1시간 2분
+- **조회수**: 19,054 | **게시일**: 2023-05-28 | **길이**: 1시간 2분
 - **신뢰도**: 저명 인사
 
-카테고리가 아닌 Movement로 사고. "Old Game → New Game" 전환 서사가 전통적 Problem-Solution보다 강력.
+카테고리가 아닌 Movement로 사고. "Old Game → New Game" 전환 서사가 전통적 Problem-Solution보다 강력. 5단계 프레임워크 상세, 360Learning 사례, Hero's Journey 병렬 구조 등.
 
 #### FounderCoHo — Strategic Narrative (2025 최신)
 
 - **URL**: https://www.youtube.com/watch?v=U1b1o-m5bpI
-- **조회수**: 21,181 | **게시일**: 2025-11-26 | **길이**: 1시간 14분
+- **조회수**: 21,192 | **게시일**: 2025-11-26 | **길이**: 1시간 14분
 - **신뢰도**: 저명 인사
 
-1:02:04부터 AI 시대 적용 논의. Gong 사례: "Goodbye Opinions, Hello Reality".
+AI 시대에 "We now live in an AI world"는 이미 차별화되지 않는 이야기. "더 낫다"가 아닌 "다른 게임(different game)"을 돕는다는 서사가 필요. Gong 사례 심층 분석, Arrogant Doctor Problem, AI 시대 적용 원칙 등. 1:02:04부터 AI 시대 적용 논의.
 
 ### 3-3. 참고 (추가)
 

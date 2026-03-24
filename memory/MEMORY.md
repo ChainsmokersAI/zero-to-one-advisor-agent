@@ -2,8 +2,8 @@
 
 ## 프로젝트 현황
 
-- **최근 작업**: Sales Deck 사례 리서치 — 3개 스트림 병렬 실행(실물 Deck, Pre-MVP 가이드, 영상 콘텐츠)하여 knowledge/startup-sales/sales-deck-case-studies.md 신규 생성 (2026-03-19)
-- **구조**: 4개 skill (idea-validation-consulting, landing-page-consulting, sales-deck-consulting, ai-trend-analysis) + 1개 subagent (startup-researcher) + Memory + Knowledge (5개 카테고리, 17개 topic) + User Inputs + `landing-page-draft.md` (랜딩 페이지 전략 최종 산출물)
+- **최근 작업**: Andy Raskin 영상 2건 Timestamp별 상세 정리 → 별도 문서(andy-raskin-strategic-narrative.md)로 분리, sales-deck-case-studies.md는 요약+링크로 축소 (2026-03-24)
+- **구조**: 4개 skill (idea-validation-consulting, landing-page-consulting, sales-deck-consulting, ai-trend-analysis) + 1개 subagent (startup-researcher) + Memory + Knowledge (5개 카테고리, 18개 topic) + User Inputs + `landing-page-draft.md` (랜딩 페이지 전략 최종 산출물)
 - **멘토**: Eric Ries, Peter Thiel, Paul Graham
 - **컨설팅 대상**: 콕스웨이브(Coxwave)의 AI 서비스 QA 자동화 서비스 — 아이디어 검증 단계, MVP 개발 중 (상세: [service-context.md](service-context.md))
 
@@ -31,6 +31,7 @@
 - 사용자의 용어를 자의적으로 해석하지 않는다 — 범위를 정확히 확인하고 반영해야 한다
 - 교훈의 핵심 원리를 이해하고, 예시에 과도 집중하지 않는다
 - 문서 작성 시 사용자가 언급하지 않은 항목을 "추후 추가 예정" 등으로 선제 추가하지 않는다 — 사용자가 직접 요청한 범위만 다룬다
+- 원본에 직접 접근하지 못하고 2차 출처로 보완할 때, "직접 요약이 아닌 2차 출처 기반 정리"임을 반드시 명시한다 — 출처 태그는 클릭 가능한 URL 링크로 제공한다
 
 ## 자주 하는 실수
 
