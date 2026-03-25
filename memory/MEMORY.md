@@ -2,14 +2,14 @@
 
 ## 프로젝트 현황
 
-- **최근 작업**: memory/plans/ 시스템 신설 (multi-session 작업 연속성 보장) + Sales Deck 초안 작성 진행 중 (2026-03-25)
-- **구조**: 4개 skill + 1개 subagent + Memory (plans/ 포함) + Knowledge (5개 카테고리, 19개 topic) + User Inputs (3개 분류) + Outputs (산출물 목록은 outputs/index.md 참조)
+- **최근 작업**: Sales Deck Version A 초안 13장 작성 완료 + 추가 리서치 2건 (AI Simulation 트렌드, Conversational AI 테스팅 어려움) (2026-03-25)
+- **구조**: 4개 skill + 1개 subagent + Memory (plans/ 포함) + Knowledge (5개 카테고리, 21개 topic) + User Inputs (3개 분류) + Outputs (산출물 목록은 outputs/index.md 참조)
 - **멘토**: Eric Ries, Peter Thiel, Paul Graham
 - **컨설팅 대상**: 콕스웨이브(Coxwave)의 AI 서비스 QA 자동화 서비스 — 아이디어 검증 단계, MVP 개발 중 (상세: [service-context.md](service-context.md))
 
 ## 다음 세션 할 일
 
-- **[진행 중] Sales Deck 초안 작성**: Version A(Strategic Narrative) + Version B(Problem-Solution) 슬라이드별 작성 — 상세: [plans/2026-03-25-sales-deck-draft.md](plans/2026-03-25-sales-deck-draft.md)
+- **[진행 중] Sales Deck 초안 작성**: Version A 완료(사용자 리뷰 대기), Version B 미착수 — 상세: [plans/2026-03-25-sales-deck-draft.md](plans/2026-03-25-sales-deck-draft.md)
 - service-context.md 보완: 검증 현황은 추후 사용자가 필요 시 별도 공유 예정
 - [낮은 우선순위] SPA 렌더링 사이트 내용 추출 대안 조사: WebFetch가 Framer/Next.js RSC 기반 SPA 콘텐츠 추출 실패 — Puppeteer MCP, 브라우저 자동화 등 대안 필요
 

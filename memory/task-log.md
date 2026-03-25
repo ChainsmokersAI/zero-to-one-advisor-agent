@@ -4,6 +4,16 @@
 
 ---
 
+## [2026-03-25] Sales Deck Version A 초안 작성 (13장) + 추가 리서치 2건
+
+- **사용자 요청**: Version A 슬라이드별 작성 시작. 사용자 피드백 4건 반영 (Slide 3-4 논리 개선, Slide 5 다이어그램 Fix 위치 강조, Slide 8 자유로운 UX 추가, AI Feed용 상세 디자인 가이드)
+- **처리 방안**: (1) Plan Mode로 13장 슬라이드별 상세 계획 설계 (2) 추가 리서치 2건 병렬 실행 — AI Simulation/Synthetic User 트렌드 + Conversational AI 테스팅 어려움 (3) Knowledge 2개 topic 신규 생성 (4) 13장 초안 작성 — 슬라이드별 제목/카피/디자인 가이드 상세 기술
+- **결과**: `outputs/sales-deck-draft-version-a.md` 생성 (13장, 디자인 시스템 + 데이터 출처 일람 포함), `knowledge/ai-startup-trends/ai-simulation-synthetic-user-trend.md` 및 `conversational-ai-testing-challenges.md` 신규 생성, knowledge index 갱신 (topic 19→21)
+- **특이점**: (1) 사용자가 Slide 3-4의 논리를 귀납적 구조(증거 → 결론)로 변경 요청 — 이전 계획의 연역적 구조(선언 → 증거)에서 전환 (2) 신뢰 데이터를 "톤"이 아닌 "논거"로 사용하는 방식으로 이전 피드백(보안/신뢰 과도 집중 금지)과 양립 (3) AI Simulation 리서치에서 $200M+ VC 투자, Gartner 2026 Top Trend, Generative Agents 3,000+ 인용 등 강력한 데이터 확보
+- **배운점**: —
+
+---
+
 ## [2026-03-25] memory/plans/ Multi-session 작업 연속성 시스템 신설
 
 - **사용자 요청**: .claude/plans/ 경로가 디바이스 종속적이라 다른 디바이스에서 참조 불가 → 프로젝트 내(memory/ 하위)에 plan 파일을 보관하는 시스템 설계. multi-session 작업의 task-log 형식도 상세화

@@ -82,12 +82,14 @@ Coxwave AI 서비스 QA 자동화 서비스의 Sales Deck 초안 2개 버전을 
 
 - [x] 청사진 합의 (두 버전 구조, 서사, 차별화 전략)
 - [x] 근거 자료 리서치 (14건 확보, knowledge/ 기록 완료)
-- [ ] AI Simulation/Synthetic User 트렌드 추가 리서치
-- [ ] Version A 슬라이드별 작성
+- [x] AI Simulation/Synthetic User 트렌드 추가 리서치 (knowledge/ 기록 완료)
+- [x] Conversational AI 테스팅 어려움 추가 리서치 (knowledge/ 기록 완료)
+- [x] Version A 슬라이드별 작성 (13장 초안 완료)
+- [ ] 사용자 리뷰 및 피드백 반영
 - [ ] Version B 슬라이드별 작성
 - [ ] 교차 비교 및 최종 정리
 
-다음 단계: AI Simulation 추가 리서치 → Version A 슬라이드 작성 시작
+다음 단계: Version A 사용자 리뷰 → 피드백 반영 → Version B 작성
 
 ## 참조 파일
 
@@ -96,6 +98,9 @@ Coxwave AI 서비스 QA 자동화 서비스의 Sales Deck 초안 2개 버전을 
 - `knowledge/ai-startup-trends/ai-service-trust-and-qa-market-2025.md` — 근거 자료
 - `memory/service-context.md` — Coxwave 서비스 맥락
 - `outputs/landing-page-draft.md` — 랜딩 페이지 초안 (재사용 카피)
+- `outputs/sales-deck-draft-version-a.md` — Version A 초안 (13장)
+- `knowledge/ai-startup-trends/ai-simulation-synthetic-user-trend.md` — AI Simulation 트렌드 리서치
+- `knowledge/ai-startup-trends/conversational-ai-testing-challenges.md` — Conversational AI 테스팅 어려움 리서치
 
 ## 세션 로그
 
@@ -114,3 +119,21 @@ Coxwave AI 서비스 QA 자동화 서비스의 Sales Deck 초안 2개 버전을 
   - AI Simulation으로 User Research하는 관점도 추가
   - Knowledge 업데이트 누락 지적 → 즉시 반영
 - **다음 단계**: AI Simulation 추가 리서치 → Version A 슬라이드 작성 시작
+
+### [2026-03-25] 세션 2
+
+- **논의**:
+  - Plan Mode로 Version A 슬라이드별 작성 계획 설계 (13장)
+  - 사용자 피드백 4건 반영하여 Plan 수정
+- **결정**:
+  - Slide 3-4 논리 개선: Trust Gap(데이터) → 실제 사건 → Old Game 명명 (귀납적 구조)
+  - Slide 5 다이어그램: Fix 위치 강조 (Trust Lost vs Trust Intact)
+  - Slide 8: 자유로운 UX(채팅 UI) 맥락 추가
+  - 산출물 형식: 제목 + 내용 + 디자인 가이드 (AI Feed용 상세도)
+- **실행**:
+  - 추가 리서치 2건 병렬: AI Simulation 트렌드 + Conversational AI 테스팅 어려움
+  - Knowledge 2개 topic 신규 생성 (ai-simulation-synthetic-user-trend, conversational-ai-testing-challenges)
+  - Version A 13장 초안 작성 완료 (outputs/sales-deck-draft-version-a.md)
+- **사용자 피드백**:
+  - (리뷰 대기 중)
+- **다음 단계**: 사용자 리뷰 → 피드백 반영 → Version B 작성
