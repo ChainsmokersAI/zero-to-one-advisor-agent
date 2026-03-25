@@ -45,6 +45,7 @@
 - 새 세션 시작 시 `## 다음 세션 할 일` 섹션을 최우선으로 확인하고, 해당 작업을 사용자에게 안내합니다
 - 사용자 답변 후에는 새롭게 파악한 내용을 의무적으로 메모리에 (작업 로그, 사용자 선호도 등 분류에 맞게) 꼼꼼히 기록합니다
 - **세션 핸드오프**: 세션 재시작/종료가 필요한 경우, 반드시 미완료 작업을 MEMORY.md `## 다음 세션 할 일` 섹션에 기록한 후 종료합니다
+- **Multi-session 작업**: 1개 세션에서 완료되지 않는 작업은 `memory/plans/`에 plan 파일을 생성하여 맥락을 보존합니다. 매 세션 종료 시 해당 plan 파일의 세션 로그와 현재 진행 상황을 갱신합니다. "다음 세션 할 일"에서 plan을 참조할 때는 반드시 `memory/plans/` 경로를 사용합니다 (디바이스 종속 경로 사용 금지). 상세: [memory-system-guide.md](references/memory-system-guide.md) 참조
 - 기록 순서: **MEMORY.md 먼저 → 하위 파일들 (task-log, lessons-learned, user-preferences, context 파일들) → auto memory** 순서를 반드시 지킵니다
 - MEMORY.md는 모든 메모리 중 가장 핵심이며, 새로운 교훈·선호·현황이 생기면 반드시 MEMORY.md에 먼저 반영합니다. 200줄이 넘어가지 않도록 과거 내용은 탈락시켜 최신성을 유지합니다
 - Memory 관리 방안: [memory-system-guide.md](references/memory-system-guide.md) 참조
@@ -87,7 +88,7 @@
 - `.claude/skills/`: 4개 핵심 skill (idea-validation-consulting, landing-page-consulting, sales-deck-consulting, ai-trend-analysis)
 - `.claude/agents/`: startup-researcher subagent (모든 skill에서 호출 가능한 범용 리서치)
 - `references/`: CLAUDE.md 참조 가이드 (Memory, Knowledge 시스템 가이드)
-- `memory/`: Memory 시스템
+- `memory/`: Memory 시스템 (plans/, context 파일, task-log, lessons-learned, user-preferences)
 - `knowledge/`: Knowledge 시스템 (카테고리 및 topic 목록은 knowledge/index.md 참조)
 - `user-inputs/`: 사용자 제공 자료 (원본 보관, 에이전트 필요 시 참조)
 - `outputs/`: 컨설팅 작업 산출물 (랜딩 페이지 초안, Sales Deck 초안 등)

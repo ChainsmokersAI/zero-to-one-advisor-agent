@@ -4,6 +4,15 @@
 
 ---
 
+## [2026-03-25] Plan Mode에서도 Knowledge 사후 기록 의무는 최우선
+
+- 상황: Sales Deck 근거 자료를 startup-researcher subagent로 리서치 완료 후, Plan Mode 상태에서 knowledge/ 업데이트를 수행하지 않음
+- 문제: Plan Mode는 plan 파일만 수정 가능한 제약이 있으나, 규칙 4번(Knowledge 사후 기록 의무)의 존재를 인지하고 있었음에도 plan 내에 최우선 실행 항목으로 배치하지 않음 → 사용자에게 "심각한 규칙 위반"으로 지적
+- 해결: Plan Mode 중이라면 (1) plan에 "Knowledge 업데이트"를 Phase 0 최우선 항목으로 명시 (2) plan 승인 즉시 다른 작업보다 먼저 실행
+- 교훈: **웹 리서치 수행 → Knowledge 사후 기록은 어떤 워크플로우 제약(Plan Mode 등)에서도 최우선.** Plan Mode에서 리서치를 수행했다면, plan 승인 직후 첫 번째 실행 항목이 knowledge/ 업데이트여야 한다. "Plan Mode라서 못 했다"는 변명이 되지 않는다.
+
+---
+
 ## [2026-03-24] 2차 출처 기반 콘텐츠 정리 시 한계 명시 및 출처 표기
 
 - 상황: Andy Raskin 영상 2건의 Timestamp별 상세 내용 정리 요청. YouTube Transcript API 추출 실패(자막 파일 미제공)로 2차 출처(뉴스레터, 팟캐스트 요약, 인터뷰 기사 등)를 교차 종합하여 정리

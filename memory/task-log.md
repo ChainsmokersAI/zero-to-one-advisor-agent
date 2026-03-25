@@ -4,6 +4,26 @@
 
 ---
 
+## [2026-03-25] memory/plans/ Multi-session 작업 연속성 시스템 신설
+
+- **사용자 요청**: .claude/plans/ 경로가 디바이스 종속적이라 다른 디바이스에서 참조 불가 → 프로젝트 내(memory/ 하위)에 plan 파일을 보관하는 시스템 설계. multi-session 작업의 task-log 형식도 상세화
+- **처리 방안**: (1) memory/plans/ 디렉토리 + index.md 신설 (2) 기존 Sales Deck plan을 새 형식(목표/확정 사항/진행 상황/세션 로그)으로 이관 (3) CLAUDE.md 규칙 3에 multi-session 작업 규칙 추가 (4) memory-system-guide.md에 plans/ 역할, lifecycle, 파일 네이밍, task-log multi-session 형식 추가 (5) MEMORY.md 경로 수정(.claude/plans/ → memory/plans/)
+- **결과**: memory/plans/index.md, memory/plans/2026-03-25-sales-deck-draft.md 신규 생성, CLAUDE.md·memory-system-guide.md·MEMORY.md 갱신
+- **특이점**: 사용자가 완료된 plan의 처리 방식 3개 옵션 중 "보관 유지" 선택 → 디렉토리명을 active-plans/ 대신 plans/로 확정. 파일명에 시작일 포함(YYYY-MM-DD-작업명.md)
+- **배운점**: 디바이스 종속 경로를 프로젝트 파일에서 참조하면 안 된다 — 다른 디바이스/세션에서 접근 불가. plan, 세션 로그 등 중요 맥락은 반드시 Git 추적 가능한 프로젝트 내 경로에 저장해야 한다
+
+---
+
+## [2026-03-25] Sales Deck 초안 작성 착수 + 근거 자료 리서치
+
+- **사용자 요청**: Sales Deck 초안 2개 버전 작성 — Version A(Zuora식 Strategic Narrative, "Ship-and-Pray" Old Game), Version B(Linear식 Problem-Solution). 공신력 높은 근거 자료 필수
+- **처리 방안**: (1) Plan Mode로 청사진 설계 → Old Game 3개 후보 제안 → 사용자 "Ship-and-Pray" 선택, 언어 영어 확정 (2) startup-researcher subagent로 근거 자료 리서치 (Gartner, McKinsey, KPMG, HBR, Stanford HAI, Deloitte, Forrester, ABA 등 14건) (3) 사용자 피드백 3건 반영: 톤 조정(보안/신뢰에 과도 집중하지 않기), AI Simulation 관점 추가, Knowledge 업데이트 누락 지적 → 즉시 반영
+- **결과**: plan 파일 확정([plans/2026-03-25-sales-deck-draft.md](plans/2026-03-25-sales-deck-draft.md)), knowledge/ai-startup-trends/ai-service-trust-and-qa-market-2025.md 신규 생성, index 2개 갱신
+- **특이점**: 리서치 후 knowledge/ 업데이트를 즉시 수행하지 않아 사용자에게 규칙 위반 지적받음 → Plan Mode 제약(plan 파일만 수정 가능)이 있었으나, 규칙 4번(사후 기록 의무) 자체를 인지하고 plan 종료 직후 최우선 실행해야 했음
+- **배운점**: 웹 리서치 수행 시 Knowledge 사후 기록은 어떤 상황에서도 최우선 실행 — Plan Mode라도 plan에 "최우선 실행" 항목으로 명시하고, plan 승인 즉시 실행
+
+---
+
 ## [2026-03-24] Sales Deck 3건 실물 슬라이드별 상세 분석
 
 - **사용자 요청**: 업로드한 Sales Deck PDF 3건(Zuora 20장, PlaytestCloud 16장, Linear 8장)을 상세 분석. Zuora는 Andy Raskin Strategic Narrative 관점, PlaytestCloud는 Coxwave 비교 포함
